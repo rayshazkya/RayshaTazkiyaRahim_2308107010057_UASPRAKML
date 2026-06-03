@@ -1,0 +1,24 @@
+# Python
+__pycache__/
+*.py[cod]
+env/
+venv/
+.venv/
+*.egg-info/
+
+# Secrets
+.env
+*.env
+
+# Model 
+backend/artifacts/best_model.pth
+backend/artifacts/checkpoint_resume.pth
+
+# Node
+node_modules/
+.next/
+out/
+
+# OS
+.DS_Store
+Thumbs.db
